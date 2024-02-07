@@ -43,7 +43,11 @@ html {
     font-family: kranky;
     font-size: 50vh;
     text-transform: uppercase;
-    color: red;
+    color: transparent;
     margin-top: -10%;
     padding-top: -10px;
+}
+
+.red:hover {
+    color: red;
 }
