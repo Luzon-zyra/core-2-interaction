@@ -1,0 +1,49 @@
+                    
+ @font-face {    font-family: 'Frijole';
+    src: url('fonts/Frijole/Frijole-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {    font-family: 'Atma';
+    src: url('fonts/Atma/Atma-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {    font-family: 'Kranky';
+    src: url('fonts/Kranky/Kranky-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: black;
+}
+
+.a {
+    font-family: frijole;
+    font-size: 100px;
+    letter-spacing: -5px;
+    color: blue;
+    margin-top: 10%;
+}
+
+.b {
+    font-family: frijole;
+    color: orange;
+    letter-spacing: -5px;
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-bottom: -10%;
+    padding-bottom: -10%;
+}
+
+.red {
+    font-family: kranky;
+    font-size: 50vh;
+    text-transform: uppercase;
+    color: red;
+    margin-top: -10%;
+    padding-top: -10px;
+}
