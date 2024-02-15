@@ -1,0 +1,101 @@
+                    
+ @font-face {    font-family: 'Frijole';
+    src: url('../fonts/Frijole/Frijole-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {    font-family: 'Atma';
+    src: url('../fonts/Atma/Atma-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {    font-family: 'Kranky';
+    src: url('../fonts/Kranky/Kranky-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: black;
+}
+
+.a {
+    font-family: frijole;
+    font-size: 100px;
+    letter-spacing: -5px;
+    color: blue;
+    margin-top: 10%;
+}
+
+.b {
+    font-family: frijole;
+    color: orange;
+    letter-spacing: -5px;
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-bottom: -10%;
+    padding-bottom: -10%;
+}
+
+.red {
+    font-family: kranky;
+    font-size: 50vh;
+    text-transform: uppercase;
+    color: transparent;
+    margin-top: -10%;
+    padding-top: -10px;
+}
+
+.red:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
+
+  /* Apply animation to the element */
+  .a {
+    animation: shake 1s ease infinite;
+  }
+
+  @keyframes shake1 {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(10px); }
+    50% { transform: translateX(-10px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+  }
+
+  /* Apply animation to the element */
+  .b {
+    animation: shake1 1s ease infinite;
+  }
+
+@media  (max-width: 768px) {
+    .a {
+        font-family: frijole;
+        font-size: 75px;
+        letter-spacing: -5px;
+        color: blue;
+        margin-top: 10%;
+    }
+    .red {
+        font-family: kranky;
+        font-size: 25vh;
+        text-transform: uppercase;
+        color: transparent;
+        margin-top: -10%;
+        padding-top: -10px;
+    }
+}

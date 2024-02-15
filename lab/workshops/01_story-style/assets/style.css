@@ -1,8 +1,71 @@
+/* General Styles */
 html {
     background-color: blue;
     color: skyblue;
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
+body {
+    max-width: 600px;
+    background-color: violet;
+    margin: auto;
+}
+
+/* Main Header */
 .MainHeader {
     text-align: center;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.Part {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid pink;
+    margin: 50px 0px 50px 0px;
+}
+
+#PartOne {
+    background-color: aquamarine;
+    color: green;
+}
+
+#PartFive {
+    background-color: antiquewhite;
+    color: blue;
+}
+
+img, video, audio, object {
+    width: 100%;
+    margin-top: 10px;
+}
+
+object {
+    aspect-ratio: 4/3;
+}
+
+.Nav {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.Nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.Nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Nav-item {
+    display: inline-block;
+    background: black;
+    padding: 5px;
 }
