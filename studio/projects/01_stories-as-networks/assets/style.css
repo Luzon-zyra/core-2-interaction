@@ -82,6 +82,7 @@ a {
     animation: shake1 1s ease infinite;
   }
 
+
 @media  (max-width: 768px) {
     .a {
         font-family: frijole;
