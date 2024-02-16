@@ -7,6 +7,7 @@
 
 html {
     background-color: black;
+    cursor: url('./firecursor.png'), help;
 }
 
 .main {
@@ -41,6 +42,8 @@ a {
     text-decoration: none;
     color: white;
 }
+
+
 
 @media (max-width: 768px) {
     .main {

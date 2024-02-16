@@ -1,18 +1,65 @@
-@font-face {    font-family: 'Noto';
-    src: url('../fonts/Noto_Sans_JP/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf') format('truetype');
+@font-face {    font-family: 'opensans';
+    src: url('../page1/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 html {
     background-color: black;
+    font-family: opensans;
+    text-align: center;
 }
 
 body {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
 }
 
 .main {
     color: white;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+details p {
+    font-size: 20px;
+}
+
+.panic {
+    font-size: 100px;
+    color: orangered;
+}
+
+.panic2 {
+    color: orange;
+}
+
+.part5 {
+    filter: blur(5px);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.part5:hover {
+    filter: blur(0);
+}
+
+.fire:hover {
+    color: red;
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    .part5 h1{
+        font-size: 20px;
+    }
 }
