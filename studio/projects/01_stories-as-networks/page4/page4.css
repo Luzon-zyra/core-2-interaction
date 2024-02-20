@@ -1,15 +1,10 @@
+a {
+    text-decoration: none;
+    color: red;
+}
+
 @font-face {    font-family: 'opensans';
     src: url('/page1/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
-
-.main {
-    font-size: 50px;
-    font-family: opensans;
-}
-
-a {
-    text-decoration: none;
-    color: red;
 }
