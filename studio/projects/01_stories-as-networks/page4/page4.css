@@ -10,5 +10,34 @@ a {
 }
 
 html {
-    background-color: #FFE9E9 ;
+    background-color: #FFE9E9;
+    font-family: opensans;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+.main {
+    font-size: 50px;
+    font-family: opensans;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    .main {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+
+    body {
+        max-width: 400px;
+        margin: auto;
+    }
 }
