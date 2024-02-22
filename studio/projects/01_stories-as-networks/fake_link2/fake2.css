@@ -1,0 +1,19 @@
+html {
+    background-color: #FE3636;
+    text-align: center;
+}
+
+a {
+    color: orange;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-top: 20%;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        margin-top: 60%;
+    }
+}

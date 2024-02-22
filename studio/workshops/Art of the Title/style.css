@@ -25,7 +25,7 @@ html {
     font-family: frijole;
     font-size: 100px;
     letter-spacing: -5px;
-    color: blue;
+    color: orange;
     margin-top: 10%;
 }
 
@@ -50,4 +50,27 @@ html {
 
 .red:hover {
     color: red;
+}
+
+@media (max-width: 768px) {
+
+    html {
+        margin: auto;
+    }
+
+    .topic {
+        margin-top: 40%;
+    }
+
+    .a {
+        font-size: 50px;
+    }
+
+    .b {
+        font-size: 50px;
+    }
+
+    .red {
+        font-size: 25vh;
+    }
 }

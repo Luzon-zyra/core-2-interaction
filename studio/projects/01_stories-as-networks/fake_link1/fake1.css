@@ -1,0 +1,19 @@
+html {
+    background-color: black;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-top: 20%;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        margin-top: 60%;
+    }
+}
