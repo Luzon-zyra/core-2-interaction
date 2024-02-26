@@ -1,0 +1,64 @@
+/* Group */
+.Group {
+    background-color: blue;
+    border: 1px solid skyblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+
+    /* Flex */
+    display: flex;
+    gap: 10px;
+}
+
+/* Flex Direcetion */
+.GroupFour,
+.GroupFive,
+.GroupSix {
+    flex-direction: column;
+}
+
+/* Justify-Content */
+.GroupOne {
+    justify-content: start;
+    align-items: start;
+}
+
+.GroupTwo {
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupThree {
+    justify-content: end;
+    align-items: end;
+}
+
+.GroupFour {
+    justify-content: start;
+    align-items: start;
+}
+
+.GroupFive {
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupSix {
+    justify-content: end;
+    align-items: end;
+}
+
+/* Classmate*/
+.Classmate {
+    background-color: aqua;
+    border: 1px solid yellow;
+    padding: 10px;
+}
+
+/* My Clothes */
+#Brianna {
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+}
