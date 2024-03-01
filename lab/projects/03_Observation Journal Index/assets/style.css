@@ -1,0 +1,37 @@
+html {
+    background-color: black;
+}
+
+.main {
+    margin: auto;
+    background-color: white;
+
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9, .pic10, .pic11, .pic12, .pic13, .pic14, .pic15 {
+    width: 100%;
+    background-color: black;
+    border: 3px solid black;
+}
+
+img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .pictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        padding: 10px;
+        gap: 10px;
+    }
+}
