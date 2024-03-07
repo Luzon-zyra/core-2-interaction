@@ -1,0 +1,103 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 75vw;
+  height: 57vw;
+  background: rgb(251, 92, 57);
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+
+.globe {
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+}
+
+.orange1 {
+  margin: auto;
+  width: 135px;
+  height: 135px;
+  background: rgb(255, 89, 0);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  box-shadow: -10px -10px 20px rgb(241, 167, 82) inset, 10px 10px 20px rgb(241, 167, 82) inset;
+  background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+  background-size: 5px 5px;
+}
+
+.orange2 {
+  margin: auto;
+  width: 135px;
+  height: 135px;
+  background: rgb(255, 89, 0);
+  border-radius: 50%;
+  position: absolute;
+  left: 24%;
+  bottom: 0%;
+  box-shadow: -10px -10px 20px rgb(241, 167, 82) inset, 10px 10px 20px rgb(241, 167, 82) inset;
+  background-image: repeating-linear-gradient(-45deg, rgba(255,255,255, 0.25), rgba(255,255,255, 0.25) 1px, transparent 1px, transparent 6px);
+  background-size: 5px 5px;
+}
+
+.bottle {}
+
+.bottle-neck {}
+
+.cork {}
+
+.computer {
+  width: 350px;
+  height: 450px;
+  background: rgb(185, 165, 131);
+  position: absolute;
+  left: 30%;
+  top: 20%;
+}
+
+.keyboard {}
+
+
+.screen {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: 20px 0;
+  background: black;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+  position: absolute;
+  left: 36%;
+  top: 25%;
+}
+.screen:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
