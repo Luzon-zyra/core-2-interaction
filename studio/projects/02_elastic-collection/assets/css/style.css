@@ -1,22 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    font-family: Arial, sans-serif;
+    text-align: center;
   }
-  .container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto; /* Enable horizontal scrolling */
-    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
-    scroll-snap-type: x mandatory; /* Snap items to the x-axis */
-    -ms-overflow-style: none; /* Hide scrollbar for IE, Edge */
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  h1 {
+    margin-top: 20px;
   }
-  .container::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
-  }
-  .image {
-    flex: 0 0 auto;
-    width: 33.33%; /* Display 3 images at a time */
-    scroll-snap-align: start; /* Snap alignment to the start */
+  h2 {
+    margin-top: 50px;
   }
