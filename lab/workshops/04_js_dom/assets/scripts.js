@@ -91,3 +91,5 @@ function insertCostumeData(costume) {
 costumes.forEach((costume) => {
     insertCostumeData(costume);
 });
+
+console.log(costume);
