@@ -5,7 +5,6 @@ body {
   }
 
 .box {
-    background-color: gray;
     height: 250px;
 }
 
@@ -21,6 +20,7 @@ body {
     scrollbar-width: none; /* Hide scrollbar for Firefox */
     align-items: end;
     margin-left: 5%;
+    gap: px;
 
   }
 
