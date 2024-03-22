@@ -31,3 +31,10 @@
       container.appendChild(img);
     });
   });
+
+  document.getElementById("hover-word").addEventListener("mouseover", playHoverSound);
+
+  function playHoverSound() {
+    var audio = document.getElementById("hover-sound");
+    audio.play();
+  }

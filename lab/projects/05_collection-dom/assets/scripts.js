@@ -7,9 +7,9 @@ function insertDataItem(dataItem) {
 	// Update this to your match your collection's metadata.
 	containerElement.innerHTML += `
 		<div class="Car" style="background: ${ dataItem['color'] }">
-			<p>Make: ${ dataItem['make'] }</p>
-			<p>Model: ${ dataItem['model'] }</p>
-			<p>Year: ${ dataItem['year'] }</p>
+			<p>Name: ${ dataItem['name'] }</p>
+			<p>Type: ${ dataItem['type'] }</p>
+			<p>Note: ${ dataItem['note'] }</p>
 		</div>
 	`
 }
