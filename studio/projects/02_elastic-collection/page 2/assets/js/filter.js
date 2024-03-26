@@ -1,3 +1,5 @@
-$('.title').click(function(){
-    $(this).parents('.week').find('.content').slideToggle();
-});
+$(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").slideToggle("slow");
+    });
+  });
