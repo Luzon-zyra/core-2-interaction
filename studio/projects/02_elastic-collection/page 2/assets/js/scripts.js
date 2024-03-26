@@ -1,6 +1,5 @@
 
 
-
 var mainElement = document.querySelector('.container');
 
 // mainElement.innerHTML = perfumes[5].image;
