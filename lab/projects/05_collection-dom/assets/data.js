@@ -3,7 +3,8 @@ var data = [
         name: 'Acqua di Scandola',
         type: 'EDP',
         note: 'Aquatic',
-        color: 'skyblue'
+        color: 'skyblue',
+        image: 'acqua di scandola.png'
     },
     {
         name: 'Apple Brandy',

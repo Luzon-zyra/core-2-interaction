@@ -10,6 +10,7 @@ function insertDataItem(dataItem) {
 			<p>Name: ${ dataItem['name'] }</p>
 			<p>Type: ${ dataItem['type'] }</p>
 			<p>Note: ${ dataItem['note'] }</p>
+            <img src="media/${ dataItem['image']}" />
 		</div>
 	`
 }

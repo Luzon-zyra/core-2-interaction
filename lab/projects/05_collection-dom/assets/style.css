@@ -13,3 +13,8 @@ p {
 html {
 	background-color: black;
 }
+
+img {
+	width: 40px;
+	display: flex;
+}
