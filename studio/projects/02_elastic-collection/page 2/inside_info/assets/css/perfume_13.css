@@ -42,7 +42,7 @@ marquee {
 
 
 .part2 {
-    background-color: rgb(35, 87, 146);
+    background-color: rgb(244, 232, 124);
     /* background-color: rgb(255, 234, 196); */
     /* background-image: linear-gradient(to right, white , black); */
     padding-top: 50px;
@@ -62,7 +62,7 @@ marquee {
 }
 
 .nav-items {
-    background-color: rgb(35, 87, 146);
+    background-color: rgb(244, 232, 124);
     padding: 8px;
     border-radius: 20px;
     border: 1px solid white;

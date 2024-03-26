@@ -11,27 +11,33 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  bottom: 0;
   align-items: end;
-  overflow-y: auto;
-  margin-top: 0;
+  overflow-y: hidden;
+  gap: 200px;
 }
 
   .Name img {
     margin-right: 23%;
-    width: 100px;
+    width: auto;
     height: auto;
     bottom: 0;
+    margin-bottom: 0;
+    justify-content: end;
+
 
   }
 
   #panel, #flip {
     padding: 5px;
-    text-align: center;
+
   
   }
   
   #panel {
     padding: 50px;
     display: none;
+  }
+
+  a {
+    text-decoration: none;
   }
