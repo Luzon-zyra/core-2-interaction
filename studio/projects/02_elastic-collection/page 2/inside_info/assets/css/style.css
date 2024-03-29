@@ -74,9 +74,9 @@ marquee {
 }
 
 button {
-    background-color: white;
+    background-color: rgb(35, 87, 146);
     font-size: 20px;
-    color: white;
+    color: rgb(35, 87, 146);
     width: 100px;
     height: 100px;
     margin: auto;
@@ -87,6 +87,7 @@ button {
 
 button:hover {
     color: black;
+    background-color: white;
     border: none;
     box-shadow: inset -10px 0 10px 0 rgba(0,0,0,0.5);
 
@@ -113,11 +114,16 @@ li {
     overflow-x: auto;
 }
 
+.dis p {
+    margin-top: 40px;
+}
 
 .liking {
     color: white;
     background-color: transparent;
     height: 150px;
+    margin-bottom: 0;
+    margin-top: 50px;
 }
 
 .liking h1 {
@@ -136,7 +142,12 @@ li {
 .ref {
     background-color: yellow;
     border-radius: 20px;
-    height: 150px;
+    height: 125px;
+}
+
+.ref h1 {
+    margin-left: 25px;
+    padding-top: 20px;
 }
 
 h1 {
@@ -151,4 +162,9 @@ p {
     padding-right: 30px;
     font-size: 20px;
     margin-top: 10px;
+}
+
+.tags {
+    margin-top: 50px;
+    display: flex;
 }
