@@ -1,7 +1,16 @@
+body {
+    min-height: 600px;
+    font-family: "rooney-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 10%;
+}
+
 .main {
     max-width: 800px;
     margin: auto;
     box-shadow: -10px 0px 10px -5px rgba(0, 0, 0, 0.75);
+    min-height: 365px;
 }
 
 h1 {
@@ -16,4 +25,29 @@ p {
 .nav {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "rooney-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .main {
+        max-width: 300px;
+        min-height: 400px;
+    }
+    .nav {
+        margin-top: 15px;
+    }
 }

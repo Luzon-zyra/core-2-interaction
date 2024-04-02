@@ -154,3 +154,17 @@ details:hover {
   justify-content: center;
   margin: auto;
 }
+
+@media (max-width: 768px) {
+  .home {
+    font-size: 20px;
+  }
+
+  .container {
+    padding-left: 35%;
+  }
+
+  .box2 {
+    left: 88%;
+  }
+}

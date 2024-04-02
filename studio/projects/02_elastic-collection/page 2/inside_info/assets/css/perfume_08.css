@@ -74,9 +74,9 @@ marquee {
 }
 
 button {
-    background-color: white;
+    background-color: rgb(169, 89, 177);
     font-size: 20px;
-    color: white;
+    color: rgb(169, 89, 177);
     width: 100px;
     height: 100px;
     margin: auto;
@@ -87,6 +87,7 @@ button {
 
 button:hover {
     color: black;
+    background-color: white;
     border: none;
     box-shadow: inset -10px 0 10px 0 rgba(0,0,0,0.5);
 
@@ -113,11 +114,16 @@ li {
     overflow-x: auto;
 }
 
+.dis p {
+    margin-top: 40px;
+}
 
 .liking {
     color: white;
     background-color: transparent;
     height: 150px;
+    margin-bottom: 0;
+    margin-top: 50px;
 }
 
 .liking h1 {
@@ -136,7 +142,12 @@ li {
 .ref {
     background-color: yellow;
     border-radius: 20px;
-    height: 150px;
+    height: 125px;
+}
+
+.ref h1 {
+    margin-left: 25px;
+    padding-top: 20px;
 }
 
 h1 {
@@ -151,4 +162,83 @@ p {
     padding-right: 30px;
     font-size: 20px;
     margin-top: 10px;
+}
+
+.tags {
+    margin-top: 50px;
+    display: flex;
+}
+
+@media (max-width: 768px) {  
+    .main {
+        display:grid; 
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: unset;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .ref {
+        background-color: yellow;
+        border-radius: 10px;
+        height: 100px;
+        padding-bottom: 10px;
+    }
+
+    a {
+        font-size: 15px;
+    }
+
+    .nav-list {
+        display: flex;
+        position: absolute;
+        bottom: 92%;
+        left: 63%;
+        gap: 10px;
+        justify-content: end;
+        padding-bottom: 10px;
+    }
+    
+    .nav-items {
+        padding: 8px;
+        border-radius: 20px;
+        border: 1px solid white;
+        /* box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.75); */
+    }
+
+    h1 {
+        font-size: 20px;
+        padding-top: 10px;
+    }
+
+    p {
+        font-size: 15px;
+        padding-top: -10px;
+        
+    }
+
+    .dis {
+        height: 250px;
+        overflow-x: hidden;
+    }
+
+    button {
+        font-size: 13px;
+        width: 75px;
+        height: 75px;
+        margin: auto;
+        border-radius: 50%;
+        border: none;
+        box-shadow: -8px 0px 10px -2px rgba(0, 0, 0, 0.75);
+    }
+
+    .heart-rating {
+        font-size: 60px; /* Adjust the size of the hearts */
+        color: red; /* Color of filled hearts */
+    }
 }
