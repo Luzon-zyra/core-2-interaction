@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.poster {
+    margin: auto;
+    padding: 0;
+    max-width: fit-content;
+}
+
+@media (max-width: 768px) {
+    img {
+        height: 100vh;
+    }
+}
