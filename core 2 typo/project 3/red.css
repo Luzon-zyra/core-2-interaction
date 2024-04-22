@@ -8,15 +8,22 @@ html {
     top: 20%;
     left: 38%;
     z-index: 2;
-    animation: bounce 1s ease infinite alternate;
-}
-
-@keyframes bounce {
-    100% {
-        top: 90px;
-    }
+    animation: backInLeft 1s ease;
   }
 
+  @keyframes backInLeft {
+    0% {
+      transform: translateX(-800px) scaleX(0.7) scaleY(0.7) rotate(-20deg);
+      opacity: 0;
+    }
+    80% {
+      transform: translateX(20px) scaleX(1.1) scaleY(1.1) rotate(10deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0) scaleX(1) scaleY(1) rotate(0deg);
+    }
+  }
 .s1 {
     width: 400px;
     position: absolute;
