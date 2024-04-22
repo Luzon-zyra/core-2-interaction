@@ -60,7 +60,17 @@ a {
     top: 10%;
     left: 35%;
     z-index: 1;
+    animation: colorChange 3s infinite alternate;
 }
+
+@keyframes colorChange {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(180deg);
+    }
+  }
 
 @media (max-width: 768px) {
     html {
