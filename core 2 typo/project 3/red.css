@@ -1,19 +1,19 @@
 html {
-    background-color: white;
+    background-color: #ee1c4e;
 }
 
 .red {
-    width: 400px;
+    width: 350px;
     position: absolute;
     top: 20%;
-    left: 37%;
+    left: 38%;
     z-index: 2;
     animation: bounce 1s ease infinite alternate;
 }
 
 @keyframes bounce {
     100% {
-        top: 110px;
+        top: 90px;
     }
   }
 
@@ -34,7 +34,7 @@ html {
 }
 
 a {
-    color: black;
+    color: white;
     font-family: sans-serif;
 }
 
@@ -54,6 +54,17 @@ a {
     z-index: 2;
 }
 
+.home {
+    background-color: white;
+    position: absolute;
+    top: 90%;
+    left: 48%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 5;
+}
+
 .bg {
     height: 600px;
     position: absolute;
@@ -64,14 +75,14 @@ a {
 
 @media (max-width: 768px) {
     html {
-        background-color: white;
+        background-color: #ee1c4e;
     }
     
     .red {
-        width: 400px;
+        width: 350px;
         position: absolute;
         top: 20%;
-        left: 15%;
+        left: 20%;
         z-index: 2;
     }
     
@@ -92,7 +103,7 @@ a {
     }
     
     a {
-        color: black;
+        color: white;
         font-family: sans-serif;
     }
     
@@ -111,7 +122,7 @@ a {
         left: 10%;
         z-index: 2;
     }
-    
+
     .bg {
         height: 600px;
         position: absolute;
