@@ -84,10 +84,6 @@ a {
   }
 
 @media (max-width: 768px) {
-    html {
-        background-color: white;
-    }
-    
     .red {
         width: 400px;
         position: absolute;
