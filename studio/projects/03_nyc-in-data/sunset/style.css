@@ -10,7 +10,7 @@ font-style: normal;
 }
 
 body {
-  background-image: linear-gradient(#070522, #2A2075, #537573, #777074, #BA6E6A, #E19B49 );
+  background-image: linear-gradient(#E19B49, #BA6E6A, #777074, #537573, #2A2075, #070522 );
 }
 
 .window {
@@ -26,7 +26,7 @@ body {
 }
 
 .sea {
-  background-image: linear-gradient(#E6DCC2, #1A3B6C);
+  background-image: linear-gradient(#F98E8E, #1A3B6C);
   height: 175px;
   width: 100vw;
   position: fixed;
@@ -35,15 +35,15 @@ body {
 }
 
 .sun {
-  background-color: white;
+  background-color: #fee1bc;
   height: 200px;
   width: 200px;
   border-radius: 50%;
   position: fixed;
   bottom: 10%;
-  left: 5%;
+  right: 5%;
   z-index: 1;
-  border: 5px solid #E3E3E3;
+  border: 5px solid #fdd594;
 }
 
 .container {
