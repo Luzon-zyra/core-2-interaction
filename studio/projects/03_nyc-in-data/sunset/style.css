@@ -13,7 +13,7 @@ body {
   background-image: linear-gradient(#E19B49, #BA6E6A, #777074, #537573, #2A2075, #070522 );
 }
 
-.window {
+/* .window {
   border: 10px solid white;
   background-color: transparent;
   height: 95vh;
@@ -23,7 +23,7 @@ body {
   border-radius: 20px;
   position: fixed;
   z-index: 3;
-}
+} */
 
 .sea {
   background-image: linear-gradient(#F98E8E, #1A3B6C);
@@ -88,4 +88,40 @@ p {
 
 .text p {
   font-size: 30px;
+}
+
+a {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .sea {
+    height: 100px;
+  }
+
+  .sun {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    bottom: 7%;
+  }
+
+  h1 {
+    font-size: 100px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
 }
