@@ -94,39 +94,6 @@ a {
   color: white;
 }
 
-@media (max-width: 480px) {
-  .sea {
-    height: 100px;
-  }
-
-  .sun {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    bottom: 7%;
-  }
-
-  h1 {
-    font-size: 100px;
-    margin: 0;
-  }
-  
-  h2 {
-    font-size: 40px;
-  }
-
-  p {
-    font-size: 25px;
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-
-  .text p {
-    font-size: 20px;
-  }
-
-}
-
 @media (max-width: 768px) {
   .sea {
     height: 100px;
@@ -145,7 +112,7 @@ a {
   }
   
   h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   p {
