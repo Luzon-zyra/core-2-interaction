@@ -20,5 +20,39 @@ function render(data) {
     var nowSeconds = nowDataObject.getTime();
     var endSeconds = sunsetDataObject.getTime();
     
-    console.log(sunriseDataObject, sunsetDataObject, nowDataObject, startSeconds, nowSeconds, endSeconds);
+    // Calculate percentage of the day
+    var totalDayLength = endSeconds - startSeconds;
+    var currentTime = nowSeconds - startSeconds;
+    var percentageOfDay = currentTime / totalDayLength;
+
+    // Get window dimensions
+    var windowHeight = window.innerHeight;
+    var windowWidth = window.innerWidth;
+
+    // Calculate circle position
+    var circle = document.querySelector('.sun');
+    var circleSize = windowWidth * 0.1; // Circle size as 10% of window width
+
+    var newPositionX = windowWidth * percentageOfDay;
+    var newPositionY = windowHeight / 2; // Center vertically
+
+    // Update position every second for smoother transition
+    setInterval(() => {
+        // Update current time
+        var nowDataObject = new Date();
+        var nowSeconds = nowDataObject.getTime();
+        var currentTime = nowSeconds - startSeconds;
+        var percentageOfDay = currentTime / totalDayLength;
+    
+
+        // Calculate new position
+        var newPositionX = windowWidth * percentageOfDay;
+
+        // Adjust circle position
+        circle.style.left = newPositionX - circleSize / 2 + 'px';
+        }, 1000);
+
+    console.log(newPositionX);
 };
+
+

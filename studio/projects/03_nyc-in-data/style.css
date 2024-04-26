@@ -13,7 +13,7 @@ body {
   background-image: linear-gradient(#1E1778, #3D3577, #5B5375, #335D7C, #7D8FA5, #FFEBA4 );
 }
 
-.window {
+/* .window {
   border: 10px solid white;
   background-color: transparent;
   height: 95vh;
@@ -23,7 +23,7 @@ body {
   border-radius: 20px;
   position: fixed;
   z-index: 3;
-}
+} */
 
 .sea {
   background-image: linear-gradient(#E6DCC2, #1A3B6C);
@@ -32,6 +32,7 @@ body {
   position: fixed;
   bottom: 0;
   z-index: 2;
+  left: 0;
 }
 
 .sun {
@@ -87,4 +88,73 @@ p {
 
 .text p {
   font-size: 30px;
+}
+
+a {
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .sea {
+    height: 100px;
+  }
+
+  .sun {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    bottom: 7%;
+  }
+
+  h1 {
+    font-size: 100px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .sea {
+    height: 100px;
+  }
+
+  .sun {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    bottom: 7%;
+  }
+
+  h1 {
+    font-size: 100px;
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 25px;
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
 }
