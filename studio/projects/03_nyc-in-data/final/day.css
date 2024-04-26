@@ -12,18 +12,6 @@ body {
   background-image: linear-gradient(#1E1778, #3D3577, #5B5375, #335D7C, #7D8FA5, #FFEBA4 );
 }
 
-/* .window {
-  border: 10px solid white;
-  background-color: transparent;
-  height: 95vh;
-  width: 97.5vw;
-  margin: 0;
-  padding: 0;
-  border-radius: 20px;
-  position: fixed;
-  z-index: 3;
-} */
-
 .sea {
   background-image: linear-gradient(#E6DCC2, #1A3B6C);
   height: 175px;

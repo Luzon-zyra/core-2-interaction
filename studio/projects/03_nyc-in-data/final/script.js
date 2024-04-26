@@ -12,13 +12,25 @@ fetch(URL)
     })
 
 function render(data) {
+
+    // Get relevant times
     var sunriseDataObject = new Date(`${ data.results.date } ${ data.results.sunrise }`);
     var nowDataObject = new Date();
     var sunsetDataObject = new Date(`${ data.results.date } ${ data.results.sunset }`);
 
+    // Calculate seconds
     var startSeconds = sunriseDataObject.getTime();
     var nowSeconds = nowDataObject.getTime();
     var endSeconds = sunsetDataObject.getTime();
+
+    // Get stylesheet
+    var stylesheet = document.querySelector('link[rel="stylesheet"]');
+    var isDaytime = nowSeconds > startSeconds && nowSeconds < endSeconds;
+    if (isDaytime == true) {
+        stylesheet.href = 'day.css';
+    } else if (isDaytime == false) {
+        stylesheet.href = 'night.css';
+    }
     
     // Calculate percentage of the day
     var totalDayLength = endSeconds - startSeconds;
@@ -38,21 +50,25 @@ function render(data) {
 
     // Update position every second for smoother transition
     setInterval(() => {
+
         // Update current time
         var nowDataObject = new Date();
         var nowSeconds = nowDataObject.getTime();
         var currentTime = nowSeconds - startSeconds;
         var percentageOfDay = currentTime / totalDayLength;
-    
 
         // Calculate new position
         var newPositionX = windowWidth * percentageOfDay;
 
         // Adjust circle position
-        circle.style.left = newPositionX - circleSize / 2 + 'px';
-        }, 1000);
+        if (isDaytime == true) {
+            circle.style.left = newPositionX - circleSize / 2 + 'px';
+        } else if (isDaytime == false) {
+            circle.style.right = newPositionX - circleSize / 2 + 'px';
+        }
 
-    console.log(newPositionX);
+    }, 1000);
+
 };
 
 
