@@ -1,6 +1,17 @@
 html {
-    background-color: #2e368f;
+    background-color: white;
 }
+
+.window {
+    border: 10px solid rgb(87, 87, 87);
+    border-radius: 20px;
+    margin: 0;
+    padding: 0;
+    width: 460px;
+    height: 95vh;
+    margin: auto;
+    background-color: #2e368f;
+  }
 
 .red {
     width: 350px;
