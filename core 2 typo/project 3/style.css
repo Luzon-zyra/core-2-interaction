@@ -94,6 +94,10 @@ a {
   }
 
 @media (max-width: 768px) {
+
+  .main {
+    left: 0;
+  }
     .red {
         width: 350px;
         position: absolute;
@@ -124,7 +128,7 @@ a {
     }
     
     .s2 {
-        width: 150px;
+        width: 175px;
         position: absolute;
         top: 67%;
         left: 10%;
