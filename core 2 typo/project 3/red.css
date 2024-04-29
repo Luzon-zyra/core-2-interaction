@@ -106,6 +106,10 @@ a {
         background-color: #ee1c4e;
     }
     
+    .window {
+        border: none;
+      }
+
     .red {
         width: 350px;
         position: absolute;
